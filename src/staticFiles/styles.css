@@ -1,0 +1,63 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    text-align: center;
+    color: white;
+    
+    background-color: rgb(60, 110, 191);
+    padding: 10px 0px 10px 0px;
+}
+
+.login-container, .register-container{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login, .register{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: rgb(35, 63, 105);
+    margin: 10px;
+    border-radius: 5px;
+    border-color: rgb(35, 63, 105);;
+}
+
+.login:active, .register:active{
+    border-color: darkkhaki;
+    background-color:rgba(35, 63, 105, 0.596) ;
+}
+
+.register-fields{
+    display: none;
+    transition:all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+.register-fields-reveal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.login-fields{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-fields.hide{
+    display: none;
+    
+}
+
+.username, .password, .email{
+    margin: 10px;
+}
+
+

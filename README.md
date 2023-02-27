@@ -1,4 +1,4 @@
-NUTRITIONIST BACKEND STORAGE SYSTEM
+NUTRITIONIST BACKEND DATABASE SYSTEM
 
 I have crated a the backend part of a nutritionist software, the main idea of this project is to help
 nutritionist organize all their information in one app and allow them to generate automated templates
